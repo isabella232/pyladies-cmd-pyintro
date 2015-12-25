@@ -1,5 +1,30 @@
-Unix Shell
+Pylading commad line and introduction to python tutorial
 =======
+
+
+Tools to use:
+
+* windows shell
+* power shell
+* Git bash
+* Notepad++
+* Python 2.7
+
+
+#Unix Shell
+
+Scope -- general introduction to shell, files and directories, running programs, copy and paste in windows shell; power shell, git bash shell (just mention).
+
+Compare shell to windows explorer
+Compare shell to a program source code
+
+
+
+
+# Introduction
+
+
+http://swcarpentry.github.io/shell-novice/00-intro.html
 
 The Unix shell has been around longer than most of its users have been alive. It has survived so long because it’s a power tool that allows people to do complex things with just a few keystrokes. More importantly, it helps them combine existing programs in new ways and automate repetitive tasks so that they don’t have to type the same things over and over again
 
@@ -23,7 +48,13 @@ A shell is a program like any other. What’s special about it is that its job i
 
 Using Bash or any other shell sometimes feels more like programming than like using a mouse. Commands are terse (often only a couple of characters long), their names are frequently cryptic, and their output is lines of text rather than something visual like a graph. On the other hand, the shell allows us to combine existing tools in powerful ways with only a few keystrokes and to set up pipelines to handle large volumes of data automatically. In addition, the command line is often the easiest way to interact with remote machines and supercomputers. Familiarity with the shell is near essential to run a variety of specialised tools and resources including high-performance computing systems. As clusters and cloud computing systems become more popular for scientific data crunching, being able to interact with them is becoming a necessary skill. We can build on the command-line skills covered here to tackle a wide range of scientific questions and computational challenges.
 
- [Copyright © Software Carpentry](http://swcarpentry.github.io/shell-novice/LICENSE.html)
+[Copyright © Software Carpentry](http://swcarpentry.github.io/shell-novice/LICENSE.html)
+
+
+
+# Files and Directories
+
+http://swcarpentry.github.io/shell-novice/01-filedir.html
 
 
 
