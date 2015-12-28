@@ -4,11 +4,11 @@ Pylading commad line and introduction to python tutorial
 
 Tools to use:
 
-* windows shell
+* command prompt
 * power shell
-* Git bash
 * Notepad++
-* Python 2.7
+* python 2.7
+* git bash
 
 
 #Unix Shell
@@ -26,37 +26,82 @@ Compare shell to a program source code
 
 http://swcarpentry.github.io/shell-novice/00-intro.html
 
+Command line interpreter, command line shell, command prompt or command language interpreter (CLI) are computer programs designed to interpret a sequence of lines of text in order to run programs, store data, communicate with each other and to interact with us.
+
 The Unix shell has been around longer than most of its users have been alive. It has survived so long because it’s a power tool that allows people to do complex things with just a few keystrokes. More importantly, it helps them combine existing programs in new ways and automate repetitive tasks so that they don’t have to type the same things over and over again
 
+CLI, to distinguish it from a graphical user interface, or GUI, which most people now use. The heart of a CLI is a read-evaluate-print loop, or REPL: when the user types a command and then presses the enter (or return) key, the computer reads it, executes it, and prints its output. The user then types another command, and so on until the user logs off.
 
-At a high level, computers do four things:
 
-* run programs
-* store data
-* communicate with each other
-* interact with us
-
-They can do the last of these in many different ways, including direct brain-computer links and speech interfaces. Since these are still in their infancy, most of us use windows, icons, mice, and pointers. These technologies didn’t become widespread until the 1980s, but their roots go back to Doug Engelbart’s work in the 1960s, which you can see in what has been called “The Mother of All Demos”.
-
-Going back even further, the only way to interact with early computers was to rewire them. But in between, from the 1950s to the 1980s, most people used line printers. These devices only allowed input and output of the letters, numbers, and punctuation found on a standard keyboard, so programming languages and interfaces had to be designed around that constraint.
-
-This kind of interface is called a command-line interface, or CLI, to distinguish it from a graphical user interface, or GUI, which most people now use. The heart of a CLI is a read-evaluate-print loop, or REPL: when the user types a command and then presses the enter (or return) key, the computer reads it, executes it, and prints its output. The user then types another command, and so on until the user logs off.
-
-This description makes it sound as though the user sends commands directly to the computer, and the computer sends output directly to the user. In fact, there is usually a program in between called a command shell. What the user types goes into the shell, which then figures out what commands to run and orders the computer to execute them. Note, the shell is called the shell because it encloses the operating system in order to hide some of its complexity and make it simpler to interact with.
-
-A shell is a program like any other. What’s special about it is that its job is to run other programs rather than to do calculations itself. The most popular Unix shell is Bash, the Bourne Again SHell (so-called because it’s derived from a shell written by Stephen Bourne — this is what passes for wit among programmers). Bash is the default shell on most modern implementations of Unix and in most packages that provide Unix-like tools for Windows.
-
-Using Bash or any other shell sometimes feels more like programming than like using a mouse. Commands are terse (often only a couple of characters long), their names are frequently cryptic, and their output is lines of text rather than something visual like a graph. On the other hand, the shell allows us to combine existing tools in powerful ways with only a few keystrokes and to set up pipelines to handle large volumes of data automatically. In addition, the command line is often the easiest way to interact with remote machines and supercomputers. Familiarity with the shell is near essential to run a variety of specialised tools and resources including high-performance computing systems. As clusters and cloud computing systems become more popular for scientific data crunching, being able to interact with them is becoming a necessary skill. We can build on the command-line skills covered here to tackle a wide range of scientific questions and computational challenges.
 
 [Copyright © Software Carpentry](http://swcarpentry.github.io/shell-novice/LICENSE.html)
 
 
 
-# Files and Directories
+# Working with files and directories
 
+The part of the operating system responsible for managing files and directories is called the file system. It organizes our data into files, which hold information, and directories (also called “folders”), which hold files or other directories.
+
+## Navigating the file system.
+
+Starting Windows Command Prompt: Press on Start then type `cmd`
+Starting Power Shell: Press on Start then type `powershell`
+Starting Windows Explorer: Press on Start then type `explorer`
+
+This tree programs are displaying location on the filesystem, Power Shell and Command Prompt starts in `C:\Users\<Your User Name>` but Windows Explorer cheats, and displays pseudo-location 'Libraries'.
+
+![Command Prompt, Power Shell, Windows Explorer](screenshots/0001_cmd_psh_exp.png)
+
+Switching to the same directory in Windows Explorer as in both shells is easy, just type the full path in the text field where libraries are, then press `Enter`
+
+![Change dir in Windows Explorer](screenshots/0002_cd_win_explorer.png)
+
+## Listing directory contents
+
+Windows Explorer shows path to the directory at the top and the contents of the directory in the main windows. To show contents of the directory in shell, use command `dir`. At this point we're going to close Command Prompt as Windows Shell supersedes it, by having better features and generally being a lot less annoying.
+
+
+There's an alternative command `ls` or short of *list*, the difference is mostly historical one, `dir` being mostly used by windows predecessor -- [CP/M](http://discordia.org.uk/px4/cpm.html) in the 1970s, and `ls` first used in Unix, but it races its roots to `listf` available on [Massachusetts Institute of Technology's Compatible Time Sharing System](http://www.tldp.org/LDP/LG/issue48/fischer.html) in July 1961. Power Shell processes both command.
+
+## Changing the directories
+
+cd
+
+## Creating Directories
+
+mkdir
+
+## Creating Files with Notepad
+
+
+A brief digression -- install Notepad++ (much better editor than Notepad)
+
+
+Also show creating files with echo
+
+    echo 'this is a test' > test_file.txt
+
+Reading the file with `cat`
+
+    cat test_file.txt
+
+Reading the file with Notepad++
+
+### Creating first python program.
+
+Brief digression -- installing Python 2.7
+
+Go to python.org download section for windows -- https://www.python.org/downloads/release/python-2711/
+
+Download `Windows x86-64 MSI Installer` -- https://www.python.org/ftp/python/2.7.11/python-2.7.11.amd64.msi
+
+
+## Deleting Files & Directories
+
+![dir and ls commands](screenshots/0003_dir_ls.png)
+
+http://cc.vrplumber.com/scripts.html#getting-to-the-command-prompt
 http://swcarpentry.github.io/shell-novice/01-filedir.html
-
-
 
 # References
 
