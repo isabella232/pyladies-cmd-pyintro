@@ -135,6 +135,11 @@ We can also use command line text editors to change the content of the files, an
 
     echo "Here is some text. Hello world." > my_test_file_2.txt
 
+You can copy file with redirect operator
+
+    cat my_test_file.txt > my_test_file_3.txt
+
+![Examples of echo command and redirect operator](screenshots/0)
 
 A brief digression -- install Notepad++ (much better editor than Notepad)
 
@@ -142,6 +147,8 @@ Go to https://notepad-plus-plus.org/download/v6.8.8.html download and install no
 
 
 ### Using a buffer with Power Shell: copying and pasting text.
+
+
 
 
 
