@@ -1,4 +1,4 @@
-Pylading commad line and introduction to python tutorial
+PyLadies command line and introduction to Python tutorial
 =======
 
 
@@ -61,7 +61,7 @@ Switching to the same directory in Windows Explorer as in both shells is easy, j
 Windows Explorer shows path to the directory at the top and the contents of the directory in the main windows. To show contents of the directory in shell, use command `dir`. At this point we're going to close Command Prompt as Windows Shell supersedes it, by having better features such as more shell commands, command auto-completion and generally being a lot less annoying.
 
 
-There's an alternative command `ls` or short of *list*, the difference is mostly historical one, `dir` being mostly used by windows predecessor -- [CP/M](http://discordia.org.uk/px4/cpm.html) in the 1970s, and `ls` first used in Unix, but it races its roots to `listf` available on [Massachusetts Institute of Technology's Compatible Time Sharing System](http://www.tldp.org/LDP/LG/issue48/fischer.html) in July 1961. Power Shell processes both command.
+There's an alternative command `ls` or short for *list*, the difference is mostly historical one, `dir` being mostly used by windows predecessor -- [CP/M](http://discordia.org.uk/px4/cpm.html) in the 1970s, and `ls` first used in Unix, but it races its roots to `listf` available on [Massachusetts Institute of Technology's Compatible Time Sharing System](http://www.tldp.org/LDP/LG/issue48/fischer.html) in July 1961. Power Shell processes both command.
 
 ## Creating Directories
 
@@ -89,7 +89,7 @@ There is nothing special about the directories we created and they show as regul
 
 ## Changing the directories
 
-Change directy (cd) move between different directories, same as double click in Windows Explorer, and much like `mkdir` the command treats spaces in file name much the same way.
+Change directory (cd) move between different directories, same as double click in Windows Explorer, and much like `mkdir` the command treats spaces in file name much the same way.
 
     cd 'test dir1'
 
@@ -118,7 +118,7 @@ From the command line start a notepad and give it a file name. Yes you could do 
 
 ![Notepad create a file](screenshots/0008_new_file_w_notepad.png)
 
-What happended here, is when you gave a filename to notepad, it checked if the file existed when it turned out that it didn't, notepad program asked you to what to do. Choose that you want to create the file. Write some text in it, then save and close it. Once you run that command again, you will notice that notepad just loads the file.
+What happened here, is when you gave a filename to notepad, it checked if the file existed when it turned out that it didn't, notepad program asked you to what to do. Choose that you want to create the file. Write some text in it, then save and close it. Once you run that command again, you will notice that notepad just loads the file.
 
 ![Notepad load a file](screenshots/0009_load_file_w_notepad.png)
 
