@@ -26,7 +26,8 @@ Tools to use:
 # Python Intro
 
 
-.....
+TODO -- exercises, scope.
+[Python Recap](python_recap.ipynb)
 
 
 
