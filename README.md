@@ -19,7 +19,7 @@ Tools to use:
 2. [Filesystem Navigation](shell_tutorial/0002_filesystem_navigation.md)
 3. [Directories](shell_tutorial/0003_directories.md)
 4. [Files](shell_tutorial/0004_files.md)
-5. [More Stuff](shell_tutorial/0005_more_stuff)
+5. [More Stuff](shell_tutorial/0005_more_stuff.md)
 
 
 
