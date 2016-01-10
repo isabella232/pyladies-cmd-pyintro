@@ -21,12 +21,9 @@ rmdir -- delete empty directories
 
 ### Creating first python program.
 
-Brief digression -- installing Python 2.7
+Brief digression -- [Install Python 2.7](0006_install_python.md)
 
-Go to python.org download section for windows -- https://www.python.org/downloads/release/python-2711/
-
-Download `Windows x86-64 MSI Installer` -- https://www.python.org/ftp/python/2.7.11/python-2.7.11.amd64.msi
-
+Another brief digression, install a text editor -- [Install Notepad++](0007_install_notepadpp.md)
 
 
 
