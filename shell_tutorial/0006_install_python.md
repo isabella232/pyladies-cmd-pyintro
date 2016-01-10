@@ -5,7 +5,7 @@ Verify that python in installed on the system by going through steps 12 & 13.
 
 If you see item Python (command line) in your start menu or after typing **python** in 'Search programs and files' (Step 12), and you are able to run python.exe shell from Power Shell (Step 13) then you already have python installed, if not go through steps 1 - 11
 
-### Step 1.
+### Step 1
 
 Download the latest version of Python 2.7:
 
@@ -18,14 +18,14 @@ Direct link -- https://www.python.org/ftp/python/2.7.11/python-2.7.11.amd64.msi
 
 ### Step 2
 
-Save the link.
+Save the file on the disk.
 
 ![Save Python Installer](python_screenshots/0002_python_download.png)
 
 
 ### Step 3
 
-Go to the the folder whre the file was downloaded
+Go to the the folder where the file was downloaded
 
 ![Go to downloads folder](python_screenshots/0003_python_download.png)
 
