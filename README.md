@@ -25,6 +25,21 @@ Tools to use:
 
 # Python Intro
 
+### Prerequisites
+
+* [Python 2.7 install](shell_tutorial/0006_install_python.md)
+* [Notepad++ install](shell_tutorial/0007_install_notepadpp.md)
+
+
+TODO
+
+1. [REPL, basic types, binary]()
+2. [debugging, strings, classes, datetime]()
+3. [exercise: days from the begging of the year]()
+5. [functions, control flow and dictionaries]()
+4. [functions, lists and iteration]()
+
+
 
 TODO -- exercises, scope.
 [Python Recap](python_recap.ipynb)
