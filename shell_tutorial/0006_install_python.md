@@ -3,7 +3,7 @@ Python installation instructions for Windows
 
 Verify that python in installed on the system by going through steps 12 & 13.
 
-If you see item Python (command line) in your start menu or after typing **python** in 'Search programs and files' (Step 12), and you are able to run python.exe shell from Power Shell (Step 13) then you already have python installed, if not go through steps 1 - 11
+If you see item Python (command line) in your start menu or after typing **python** in 'Search programs and files' -- [Step 12](#step-12), and you are able to run python.exe shell from Power Shell -- [Step 13](#step-13) then you already have python installed, if not go through steps 1 - 11
 
 ### Step 1
 
