@@ -1,7 +1,9 @@
 # Introduction
 
 
-http://swcarpentry.github.io/shell-novice/00-intro.html
+![Old School Unix](screenshots/0000_oldschoold_unix.jpg)
+
+[Source](http://mightyframe.blogspot.ca/2014/10/ldrcpy-at-unix-pc-system-install-clues.html)
 
 Command line interpreter, command line shell, command prompt or command language interpreter (CLI) are computer programs designed to interpret a sequence of lines of text in order to run programs, store data, communicate with each other and to interact with us.
 
@@ -10,6 +12,8 @@ The Unix shell has been around longer than most of its users have been alive. It
 CLI, to distinguish it from a graphical user interface, or GUI, which most people now use. The heart of a CLI is a read-evaluate-print loop, or REPL: when the user types a command and then presses the enter (or return) key, the computer reads it, executes it, and prints its output. The user then types another command, and so on until the user logs off.
 
 
+
+http://swcarpentry.github.io/shell-novice/00-intro.html
 
 [Copyright © Software Carpentry](http://swcarpentry.github.io/shell-novice/LICENSE.html)
 

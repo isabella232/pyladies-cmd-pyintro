@@ -121,15 +121,19 @@ Strings are multiple instances of a number so decoding whole string at once is n
 
 The function 'ord' decodes a character into its ASCII code
 
+```python
 >>> ord('H')
 72
+```
 
 **Exercise:** Try getting all the values for the word 'Hello'
 
 The function 'chr' does the opposite and converts integers into characters
 
+```python
 >>> chr(72)
 'H'
+```
 
 **Exercise:** Verify that you converted all the values of the word 'Hello' correctly by
 
