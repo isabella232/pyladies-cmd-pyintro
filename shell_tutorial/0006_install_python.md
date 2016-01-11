@@ -99,7 +99,7 @@ Verify that Python interpreter (command line) is available in 'Start Menu', if i
 
 ### Step 13
 
-Verify that Python interpreter can be run from Windows PowerShell, by starting PowerShell and then typing **python.exe** if you see Python interpreter prompt, it means that Python was install successfully. Type **exit** to quit python interpreter.
+Verify that Python interpreter can be run from Windows PowerShell, by starting PowerShell and then typing **python.exe** if you see Python interpreter prompt, it means that Python was install successfully. Type **exit()** to quit python interpreter.
 
 
 ![User Access Control](python_screenshots/0013_run_python_from_powershell.png)
