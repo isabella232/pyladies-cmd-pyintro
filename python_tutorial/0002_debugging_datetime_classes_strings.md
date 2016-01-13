@@ -64,3 +64,7 @@ This investigating technique is effective when program doesn't crash and you're 
 ```
     C:\Users\Alex\Desktop\python_tutorial\python.exe -m pdb seconds_since_midnight.py
 ```
+
+Once we're in the debugger, other then running debugger commands, you can execute python code, in our case let's see what `difference` variable has inside, and if it can display seconds.
+
+**Exercise:** this doesn't quite work, go to [datetime.timedelta](https://docs.python.org/2/library/datetime.html#datetime.timedelta) documentation page and figure out how to extract seconds from timedelta.
