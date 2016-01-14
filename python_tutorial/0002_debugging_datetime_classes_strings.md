@@ -56,7 +56,8 @@ After reading the error message, we know that the program is going to crash on l
 import pdb; pdb.set_trace()
 ```
 
-There are few commands available like `n` - execute next line, `c` - continue running the program or `q` - quit the program. **Exercise: ** try these commands, as they promptly crash the program.
+There are few commands available like `n` - execute next line, `c` - continue running the program or `q` - quit the program.
+**Exercise:** try these commands, as they promptly crash the program.
 
 This investigating technique is effective when program doesn't crash and you're just looking for the code looking where things might have gone wrong, in this case, we can use post-mortem debugger, where you don't need to modify any source code as the debugger gets loaded after program crashes
 
@@ -65,6 +66,10 @@ This investigating technique is effective when program doesn't crash and you're 
     C:\Users\Alex\Desktop\python_tutorial\python.exe -m pdb seconds_since_midnight.py
 ```
 
-Once we're in the debugger, other then running debugger commands, you can execute python code, in our case let's see what `difference` variable has inside, and if it can display seconds.
+The program will initially start in debug mode, press `c` so the code will execute until an uncought exception occurs.
+Other then running debugger commands, list what line is currently executing by typing `list`.  You can run python code, in our case let's see what `difference` variable has inside, and if it can display seconds.
 
-**Exercise:** this doesn't quite work, go to [datetime.timedelta](https://docs.python.org/2/library/datetime.html#datetime.timedelta) documentation page and figure out how to extract seconds from timedelta.
+
+**Exercise:** See the documentation for [datetime.timedelta](https://docs.python.org/2/library/datetime.html#datetime.timedelta) to figure out how to extract seconds from timedelta. Then print out the number of seconds as a part of "Seconds since midnight" string with your favorite string formatting method.
+
+**Exercise:** display seconds as an integer and not floating point number. How would you do conversion?
