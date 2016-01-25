@@ -11,7 +11,7 @@ Open Windows Power Shell and go to your Desktop, where create a folder called 'p
 
 Open Notepad++ by going to 'Start Menu' -> typing Notepad, then clicking on Notepad++.
 
-**TODO:** Add screenshots
+![Create project directory](screenshots/0002_new_dir.png)
 
 We're going to use python datetime standard module, meaning whenever python is installed this module is available.
 
@@ -22,7 +22,17 @@ We're going to use python datetime standard module, meaning whenever python is i
 
 # The Code
 
-Type the following into notepad++ and save it as `seconds_since_midnight.py` this program is supposed to display the number of seconds since midnight
+Create a new file by pressin Ctrl+N, then go to File -> Save As...
+
+![Navigate in Notepad++](screenshots/0003_save_as.png)
+
+Go ptyho_tutorial directory on Desktop and set the filename to `seconds_since_midnight.py`.
+
+![Save dialog](screenshots/0004_save_dialog.png)
+
+After the file has been saved, Notepad++ will detect it's a python file and turn on appropriate syntax highlighting and autocomplete.
+
+Type the following into notepad++, then press Ctrl+S to save
 
 ```python
 
@@ -40,14 +50,14 @@ print("Seconds since midnight: " + difference)
 Now open Windows PowerShell and go to `Desktop\python_tutorial` then run the program:
 
 ```
-python.exe seconds_since_midnight.py
+python seconds_since_midnight.py
 ```
 
-**TODO:** add screenshot.
+![Run the program - strcat error](screenshots/0005_program_error.png)
 
 As you see right now, the program doesn't work. We are going to debug it. See how this term has come about in [Wikipedia article](https://en.wikipedia.org/wiki/Debugging#Origin)
 
-There's obviously a problem with mashing `datetime.timedelta` object with a string, first thing we can do is to print out just the `difference` object and see how it looks, this approach will work just fine for a small program, however for larger programs especially the once that output lots of things to the console, the output might get drown out by other things, another problem is that we're changing the source code, and after we're done we'll have to go and hunt for all the print statements; source control tools partially solve the problem, but do we really need to write code that we're never going to run?
+There's problem mashing a `datetime.timedelta` object with a string, first thing we can do is to print out just the `difference` object and see how it looks, this approach will work just fine for a small program, however for larger programs especially the once that output lots of things to the console, the output might get drown out by other things. Another problem is that we're changing the source code, and after we're done we'll have to go and hunt for all the print statements; source control tools partially solve the problem, but do we really need to write code that we're never going to run?
 
 
 # Debugging
@@ -67,8 +77,10 @@ This investigating technique is effective when program doesn't crash and you're 
 
 
 ```
-    C:\Users\Alex\Desktop\python_tutorial\python.exe -m pdb seconds_since_midnight.py
+    python -m pdb seconds_since_midnight.py
 ```
+
+![Running post-mortem debugger](screenshots/0006_postmortem_pdb.png)
 
 The program will initially start in debug mode, press `c` so the code will execute until an uncaught exception occurs.
 Other then running debugger commands, list what line is currently executing by typing `list`.  You can run python code, in our case let's see what `difference` variable has inside, and if it can display seconds.
