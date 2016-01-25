@@ -16,6 +16,12 @@ Switching to the same directory in Windows Explorer as in both shells is easy, j
 
 ![Change dir in Windows Explorer](screenshots/0002_cd_win_explorer.png)
 
+
+# Exercise
+
+* Follow along, launch Command Prompt, Power shell and Windows Explorer.
+
+
 |Previous|Next|
 |--------|----|
 |[Intro](0001_intro.md)|[Directories](0003_directories.md)|

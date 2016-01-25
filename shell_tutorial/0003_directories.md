@@ -1,9 +1,9 @@
 ## Listing directory contents
 
-Windows Explorer shows path to the directory at the top and the contents of the directory in the main windows. To show contents of the directory in shell, use command `dir`. At this point we're going to close Command Prompt as Windows Shell supersedes it, by having better features such as more shell commands, command auto-completion and generally being a lot less annoying.
+Windows Explorer shows path to a directory at the top and the contents of the directory in the main window. To show the same content in shell, use command `dir`. At this point we're going to close Command Prompt as Windows Shell was designed to supersede it, having better features such as more shell commands, command auto-completion and generally being a lot less annoying.
 
 
-There's an alternative command `ls` or short for *list*, the difference is mostly historical one, `dir` being mostly used by windows predecessor -- [CP/M](http://discordia.org.uk/px4/cpm.html) in the 1970s, and `ls` first used in Unix, but it races its roots to `listf` available on [Massachusetts Institute of Technology's Compatible Time Sharing System](http://www.tldp.org/LDP/LG/issue48/fischer.html) in July 1961. Power Shell processes both command.
+There's an alternative command `ls` or short for *list*, the difference is mostly historical one, `dir` being mostly used by windows predecessor -- [CP/M](http://discordia.org.uk/px4/cpm.html) in the 1970s, and `ls` first used in Unix, but it races its roots to `listf` available on [Massachusetts Institute of Technology's Compatible Time Sharing System](http://www.tldp.org/LDP/LG/issue48/fischer.html) in July 1961. Power Shell supports both commands.
 
 ## Creating Directories
 
@@ -49,6 +49,12 @@ Listing directories again
 
 
 ![Changing directories command](screenshots/0007_cd.png)
+
+
+# Exercises
+* From windows explorer navigate to your desktop directory, create a subdirectory *shell_tutorial* get into that directory.
+* Create directory *test dir*.
+* Navigate to *shell_tutorial* using Windows Explorer; Delete directory *test dir* using Windows Explorer
 
 
 |Previous|Next|
