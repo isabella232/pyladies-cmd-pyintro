@@ -52,6 +52,7 @@ Listing directories again
 
 
 # Exercises
+
 * From windows explorer navigate to your desktop directory, create a subdirectory *shell_tutorial* get into that directory.
 * Create directory *test dir*.
 * Navigate to *shell_tutorial* using Windows Explorer; Delete directory *test dir* using Windows Explorer

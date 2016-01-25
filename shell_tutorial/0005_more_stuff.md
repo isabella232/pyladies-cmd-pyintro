@@ -27,7 +27,11 @@ Another brief digression, install a text editor -- [Install Notepad++](0007_inst
 
 
 
+# Exercises
 
+* Create a test text file file with Windows Explorer
+* Copy the file name from windows explorer by right-click
+* Delete the file by pasting its name into Power shell
 
 # References
 
