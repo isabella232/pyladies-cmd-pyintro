@@ -10,7 +10,6 @@ Tools to use:
 * power shell
 * Notepad++
 * python 2.7
-* git bash
 
 
 ### Table of Contents
