@@ -35,9 +35,6 @@ TODO
 
 1. [REPL, basic types, binary](python_tutorial/0001_repl_basic_types_binary.md)
 2. [debugging, datetime, classes, representing values in strings](python_tutorial/0002_debugging_datetime_classes_strings.md)
-3. [exercise: days from the begging of the year](python_tutorial/0003_days_from_new_year.md)
-5. [functions, control flow and dictionaries]()
-4. [functions, lists and iteration]()
 
 
 
