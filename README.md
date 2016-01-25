@@ -22,24 +22,16 @@ Tools to use:
 5. [More Stuff](shell_tutorial/0005_more_stuff.md)
 
 
-
-# Python Intro
-
-### Prerequisites
+# Prerequisites
 
 * [Python 2.7 install](shell_tutorial/0006_install_python.md)
 * [Notepad++ install](shell_tutorial/0007_install_notepadpp.md)
 
 
-TODO
+# Python Intro
 
 1. [REPL, basic types, binary](python_tutorial/0001_repl_basic_types_binary.md)
 2. [debugging, datetime, classes, representing values in strings](python_tutorial/0002_debugging_datetime_classes_strings.md)
-
-
-
-TODO -- exercises, scope.
-[Python Recap](python_recap.ipynb)
 
 
 
